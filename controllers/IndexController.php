@@ -11,7 +11,7 @@ use yii\db\ActiveRecord;
 
 class IndexController extends ActiveRecord{
     public function actionTest(){
-        echo 111;
+        echo 'This is branch_changeIndex';
     }
 
 }
