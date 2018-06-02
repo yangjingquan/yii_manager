@@ -11,7 +11,7 @@ use yii\db\ActiveRecord;
 
 class IndexController extends ActiveRecord{
     public function actionTest(){
-        echo 333;
+        echo 111;
     }
 
 }
