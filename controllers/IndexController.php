@@ -18,4 +18,8 @@ class IndexController extends ActiveRecord{
         echo 'This is indexTest';
     }
 
+    public function actionGetStrInfo(){
+        echo 'This is getStrInfo method';
+    }
+
 }
