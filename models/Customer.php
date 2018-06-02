@@ -8,4 +8,8 @@ class Customer extends ActiveRecord{
         $orders = $this->hasMany(Order::className(),['c_id' => 'id'])->asArray();
         return $orders;
     }
+
+    public function getOrderPrice(){
+        return '99.99';
+    }
 }
