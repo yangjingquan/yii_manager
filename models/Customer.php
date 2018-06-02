@@ -10,6 +10,6 @@ class Customer extends ActiveRecord{
     }
 
     public function getOrderPrice(){
-        return '99.99';
+        return '899.99';
     }
 }
