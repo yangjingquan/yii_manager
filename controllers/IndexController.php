@@ -14,4 +14,8 @@ class IndexController extends ActiveRecord{
         echo 111;
     }
 
+    public function actionIndex(){
+        echo 'This is indexTest';
+    }
+
 }
