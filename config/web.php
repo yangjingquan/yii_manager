@@ -43,14 +43,13 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
+        
         'urlManager' => [
             'enablePrettyUrl' => true,
              'showScriptName' => false,//隐藏index.php

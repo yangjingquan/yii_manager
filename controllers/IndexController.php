@@ -7,9 +7,8 @@
  */
 namespace app\controllers;
 use yii\web\Controller;
-use yii\db\ActiveRecord;
 
-class IndexController extends ActiveRecord{
+class IndexController extends Controller{
     public function actionTest(){
         echo 'This is branch_changeIndex';
     }
