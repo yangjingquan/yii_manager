@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Created by PhpStorm.
  * User: yangjingquan
@@ -25,4 +25,11 @@ class IndexController extends Controller{
         echo 'This is testConflict method';
     }
 
+    public function actionEx1(){
+        echo 'This is ex1 method';
+    }
+
+    public function actionEx2(){
+        echo 'This is ex2 method';
+    }
 }
