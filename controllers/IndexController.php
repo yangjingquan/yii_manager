@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Created by PhpStorm.
  * User: yangjingquan
@@ -10,7 +10,7 @@ use yii\web\Controller;
 
 class IndexController extends Controller{
     public function actionTest(){
-        echo 'This is branch_changeIndex';
+        echo 'This is branch_changeIndex1';
     }
 
     public function actionIndex(){
