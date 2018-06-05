@@ -21,4 +21,8 @@ class IndexController extends Controller{
         echo 'This is getStrInfo method';
     }
 
+    public function actionTestConflict(){
+        echo 'This is testConflict method';
+    }
+
 }
