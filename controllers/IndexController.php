@@ -10,7 +10,7 @@ use yii\web\Controller;
 
 class IndexController extends Controller{
     public function actionTest(){
-        echo 'This is branch_changeIndex1';
+        echo 'This is branch_changeIndex';
     }
 
     public function actionIndex(){
