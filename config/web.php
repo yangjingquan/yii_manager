@@ -49,14 +49,6 @@ $config = [
             'rules' => [
             ],
         ],
-        
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-             'showScriptName' => false,//隐藏index.php
-             'rules' => [
-                     //‘<controller:\w+>/<action:\w+>‘=>‘<controller>/<action>‘,
-           ],
-         ],
     ],
     'params' => $params,
 ];
