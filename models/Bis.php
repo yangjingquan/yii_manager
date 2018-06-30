@@ -16,7 +16,7 @@ class Bis extends ActiveRecord{
     }
 
     public function getOrders(){
-        $orders = $this->hasMany(MainOrder::className(),['bis_id' => 'id'])->limit(10)->asArray();
+        $orders = $this->hasMany(MainOrder::className(),['bis_id' => 'id'])->limit(10,20)->asArray();
         return $orders;
     }
 
