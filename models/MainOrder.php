@@ -2,6 +2,7 @@
 
 namespace app\models;
 use yii\db\ActiveRecord;
+use yii\db\query;
 class MainOrder extends ActiveRecord{
 
     public static function tableName(){
@@ -14,11 +15,6 @@ class MainOrder extends ActiveRecord{
             'order_status','remark','status','rec_name','address','mobile','rec_income','rec_id',
             'id_no','pro_total_amount','transport_fee','selected_transport_type','appid','secret',
             'pay_time','order_from','jifen'];
-    }
-
-    public function getCustomer(){
-        $Customer = $this->hasOne(Customer::className(),['id' => 'c_id'])->asArray();
-        return $Customer;
     }
 
 }
